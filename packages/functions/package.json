@@ -1,0 +1,21 @@
+{
+  "name": "@potluck/functions",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "3.939.0",
+    "@aws-sdk/lib-dynamodb": "3.939.0",
+    "@potluck/contract": "workspace:*",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.159",
+    "@types/node": "20.19.25",
+    "aws-sdk-client-mock": "4.1.0",
+    "sst": "3.17.23"
+  }
+}

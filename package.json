@@ -1,0 +1,27 @@
+{
+  "name": "potluck",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "bun run --filter @potluck/web dev",
+    "build": "bun run --filter @potluck/web build",
+    "lint": "oxlint --max-warnings 0 --report-unused-disable-directives",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
+    "sst:dev": "sst dev",
+    "sst:deploy": "sst deploy",
+    "sst:remove": "sst remove",
+    "test": "bun run --filter '*' test",
+    "typecheck": "bun run --filter '*' typecheck"
+  },
+  "devDependencies": {
+    "@potluck/contract": "workspace:*",
+    "@types/bun": "1.3.14",
+    "oxfmt": "0.59.0",
+    "oxlint": "1.74.0",
+    "sst": "3.17.23",
+    "typescript": "5.9.3"
+  }
+}

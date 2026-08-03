@@ -1,0 +1,1 @@
+Potluck Planner — the pot logo above the app: an "Add a dish" form with dietary heads-up chips beside an "On the table" list showing dishes and their dietary badges.

@@ -1,0 +1,3 @@
+{
+  "ignorePatterns": ["sst-env.d.ts"]
+}
