@@ -40,7 +40,14 @@ export default function Home() {
       <section className="mx-auto max-w-3xl px-6 pt-2 text-center">
         <div className="motion-safe:animate-rise-in">
           <p className="font-display text-zinc-800 mt-10 flex items-center justify-center gap-2.5 text-2xl font-bold tracking-tight sm:text-4xl">
-            <Image src="/pot.png" alt="" width={56} height={56} />
+            <Image
+              src="/logo.svg"
+              alt=""
+              width={875}
+              height={607}
+              unoptimized
+              className="h-auto w-14"
+            />
             Potluck Planner
           </p>
           <h1 className="font-display text-zinc-800 mt-4 text-balance text-[1.9rem] font-bold leading-[1.15] tracking-tight  sm:text-5xl">
