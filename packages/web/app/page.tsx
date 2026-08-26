@@ -72,7 +72,7 @@ export default function Home() {
           </h1>
         </div>
 
-        <div className="motion-safe:animate-rise-in rounded-4xl shadow-raise ring-zinc-800/5 mx-auto mt-14 max-w-lg bg-white p-7 text-left ring-1  md:p-9">
+        <div className="motion-safe:animate-rise-in rounded-4xl shadow-sm ring-zinc-800/5 mx-auto mt-14 max-w-lg bg-white p-7 text-left ring-1 md:p-9">
           <h2 className="font-display text-zinc-800 text-xl font-semibold md:text-2xl">
             Create your potluck page
           </h2>
@@ -83,7 +83,7 @@ export default function Home() {
       <HowItWorks />
 
       <section className="mx-auto mt-12 max-w-xl px-6 text-center">
-        <div className="rounded-4xl bg-shell ring-carrot/10 px-6 py-10 ring-1 shadow-sm ">
+        <div className="rounded-4xl bg-shell ring-carrot/10 px-6 py-10 ring-1 shadow-sm">
           <p className="font-display text-zinc-800 text-xl font-semibold">
             Potluck Planner is free and will stay that way.
           </p>
