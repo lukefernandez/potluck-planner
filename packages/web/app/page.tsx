@@ -39,18 +39,18 @@ export default function Home() {
       />
       <section className="mx-auto max-w-3xl px-6 pt-2 text-center">
         <div className="motion-safe:animate-rise-in">
-          <p className="font-display text-zinc-800 mt-10 flex items-center justify-center gap-2.5 text-2xl font-bold tracking-tight sm:text-4xl">
+          <p className="font-display text-zinc-800 mt-10 flex items-center justify-center gap-2.5 text-xl font-bold tracking-tight sm:text-3xl">
             <Image
               src="/logo.svg"
               alt=""
               width={875}
               height={607}
               unoptimized
-              className="h-auto w-14"
+              className="h-auto w-12 sm:w-14"
             />
             Potluck Planner
           </p>
-          <h1 className="font-display text-zinc-800 mt-4 text-balance text-[1.9rem] font-bold leading-[1.15] tracking-tight  sm:text-5xl">
+          <h1 className="font-display text-zinc-800 mt-7 text-balance text-[1.9rem] font-bold leading-[1.15] tracking-tight sm:mt-9 sm:text-5xl">
             Know what's coming, so you can{" "}
             <span className="text-carrot relative whitespace-nowrap">
               bring what's missing
