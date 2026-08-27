@@ -38,7 +38,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <section className="mx-auto max-w-3xl px-6 pt-2 text-center">
-        <div className="motion-safe:animate-rise-in">
+        <div>
           <p className="font-display text-zinc-800 mt-10 flex items-center justify-center gap-2.5 text-xl font-bold tracking-tight sm:text-3xl">
             <Image
               src="/logo.svg"
@@ -73,7 +73,7 @@ export default function Home() {
           </h1>
         </div>
 
-        <div className="motion-safe:animate-rise-in rounded-4xl shadow-sm ring-zinc-800/5 mx-auto mt-14 max-w-lg bg-white p-7 text-left ring-1 md:p-9">
+        <div className="rounded-4xl shadow-sm ring-zinc-800/5 mx-auto mt-14 max-w-lg bg-white p-7 text-left ring-1 md:p-9">
           <h2 className="font-display text-zinc-800 text-xl font-semibold md:text-2xl">
             Create your potluck page
           </h2>

@@ -34,15 +34,6 @@ const config: Config = {
       transitionTimingFunction: {
         "out-quart": "cubic-bezier(0.165, 0.84, 0.44, 1)",
       },
-      keyframes: {
-        "rise-in": {
-          "0%": { opacity: "0", transform: "translateY(16px)" },
-          "100%": { opacity: "1", transform: "translateY(0)" },
-        },
-      },
-      animation: {
-        "rise-in": "rise-in 0.7s cubic-bezier(0.165, 0.84, 0.44, 1) both",
-      },
     },
   },
   plugins: [],
