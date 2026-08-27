@@ -46,6 +46,7 @@ export default function Home() {
               width={875}
               height={607}
               unoptimized
+              priority
               className="h-auto w-12 sm:w-14"
             />
             Potluck Planner
