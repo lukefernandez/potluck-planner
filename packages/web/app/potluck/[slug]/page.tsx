@@ -153,7 +153,7 @@ export default async function Potluck({ params }: { params: Promise<{ slug: stri
                     className="bg-shell/50 hover:bg-shell relative rounded-3xl p-5 transition-colors"
                   >
                     <div className="min-w-0 pr-10">
-                      <p className="text-zinc-800 truncate font-semibold">{item.name}</p>
+                      <p className="text-zinc-800 break-words font-semibold">{item.name}</p>
                       <p className="text-soft text-sm">{item.person}</p>
                       {classify(item).length > 0 && (
                         <div className="mt-2 flex flex-wrap gap-1.5">
