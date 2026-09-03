@@ -109,7 +109,7 @@ export default async function Potluck({ params }: { params: Promise<{ slug: stri
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 md:items-start md:gap-8">
-          <div className="rounded-4xl shadow-soft ring-zinc-800/5 bg-white p-6 ring-1 md:sticky md:top-8 md:p-8">
+          <div className="rounded-4xl shadow-soft ring-zinc-800/5 bg-white p-6 ring-1 md:p-8">
             <div className="mb-5 flex items-center gap-3">
               <span className="bg-carrot text-cream flex h-10 w-10 items-center justify-center rounded-xl">
                 <svg
