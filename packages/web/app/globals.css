@@ -26,7 +26,7 @@
 
   /* Consistent rounded focus ring across interactive elements */
   :focus-visible {
-    outline: 3px solid rgba(91, 124, 250, 0.55);
+    outline: 3px solid #5b7cfa;
     outline-offset: 2px;
   }
 }
