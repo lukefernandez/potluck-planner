@@ -50,9 +50,9 @@ describe("CreatePotluckForm", () => {
 
     await screen.findByText("Validation failed");
     expect(routerPush).not.toHaveBeenCalled();
-    expect((screen.getByRole("button", { name: "Create potluck page" }) as HTMLButtonElement).disabled).toBe(
-      false,
-    );
+    expect(
+      (screen.getByRole("button", { name: "Create potluck page" }) as HTMLButtonElement).disabled,
+    ).toBe(false);
   });
 
   test("shows a friendly message when the network fails", async () => {

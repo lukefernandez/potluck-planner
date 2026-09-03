@@ -64,6 +64,7 @@ const TermsOfService = () => (
       className="inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold text-soft transition-colors hover:bg-white hover:text-carrot"
     >
       <svg
+        aria-hidden="true"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth={2}

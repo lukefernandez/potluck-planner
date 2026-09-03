@@ -112,6 +112,7 @@ export function SubmitItemForm() {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             fill="currentColor"
+            aria-hidden="true"
             className="mr-2 h-4 w-4 flex-shrink-0"
           >
             <path

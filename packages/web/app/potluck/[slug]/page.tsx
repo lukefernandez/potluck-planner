@@ -95,6 +95,7 @@ export default async function Potluck({ params }: { params: Promise<{ slug: stri
               className="text-zinc-800 shadow-soft ease-out-quart hover:shadow-lift inline-flex items-center rounded-full border border-zinc-800/20 bg-transparent px-[19px] py-[9px] text-sm font-semibold transition duration-200 hover:-translate-y-0.5 active:translate-y-0"
             >
               <svg
+                aria-hidden="true"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={2}
@@ -113,6 +114,7 @@ export default async function Potluck({ params }: { params: Promise<{ slug: stri
             <div className="mb-5 flex items-center gap-3">
               <span className="bg-carrot text-cream flex h-10 w-10 items-center justify-center rounded-xl">
                 <svg
+                  aria-hidden="true"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={2.4}
