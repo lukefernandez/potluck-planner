@@ -45,7 +45,10 @@ export function CreatePotluckForm() {
         {pending ? "Setting the table…" : "Submit"}
       </button>
       {error && (
-        <p className="bg-blush/15 text-carrot-deep rounded-xl px-4 py-2.5 text-sm font-medium">
+        <p
+          role="alert"
+          className="bg-blush/15 text-carrot-deep rounded-xl px-4 py-2.5 text-sm font-medium"
+        >
           {error}
         </p>
       )}

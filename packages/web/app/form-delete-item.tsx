@@ -63,7 +63,10 @@ export function DeleteItemForm({ id, name }: { id: string; name: string }) {
         )}
       </button>
       {error && (
-        <p className="mt-3 rounded-xl bg-blush/15 px-3 py-2 text-sm font-medium text-carrot-deep">
+        <p
+          role="alert"
+          className="mt-3 rounded-xl bg-blush/15 px-3 py-2 text-sm font-medium text-carrot-deep"
+        >
           {error}
         </p>
       )}

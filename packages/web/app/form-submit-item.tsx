@@ -104,7 +104,10 @@ export function SubmitItemForm() {
       </fieldset>
 
       {error && (
-        <div className="flex items-center rounded-2xl bg-blush/15 p-3 text-sm font-medium text-carrot-deep">
+        <div
+          role="alert"
+          className="flex items-center rounded-2xl bg-blush/15 p-3 text-sm font-medium text-carrot-deep"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
