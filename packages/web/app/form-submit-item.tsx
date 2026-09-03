@@ -91,7 +91,7 @@ export function SubmitItemForm() {
               type="button"
               aria-pressed={selected.has(key)}
               onClick={() => toggleOption(key)}
-              className={`rounded-full border-2 px-3.5 py-1.5 text-sm font-semibold transition-all duration-150 ${
+              className={`rounded-full border-2 px-3.5 py-1.5 text-sm font-semibold transition duration-150 ${
                 selected.has(key)
                   ? "border-carrot bg-carrot text-cream shadow-soft"
                   : "border-zinc-800/10 bg-white text-soft hover:border-carrot/40 hover:text-zinc-800"
@@ -127,7 +127,7 @@ export function SubmitItemForm() {
       <button
         type="submit"
         disabled={pending}
-        className="flex w-full items-center justify-center rounded-2xl bg-carrot px-4 py-3 font-semibold text-cream shadow-soft transition-all duration-200 ease-out-quart hover:-translate-y-0.5 hover:bg-carrot-dark hover:shadow-lift active:translate-y-0 active:bg-carrot-deep disabled:cursor-not-allowed disabled:translate-y-0 disabled:opacity-60"
+        className="flex w-full items-center justify-center rounded-2xl bg-carrot px-4 py-3 font-semibold text-cream shadow-soft transition duration-200 ease-out-quart hover:-translate-y-0.5 hover:bg-carrot-dark hover:shadow-lift active:translate-y-0 active:bg-carrot-deep disabled:cursor-not-allowed disabled:translate-y-0 disabled:opacity-60"
       >
         {pending ? (
           <>

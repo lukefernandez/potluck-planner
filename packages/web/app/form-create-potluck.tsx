@@ -40,7 +40,7 @@ export function CreatePotluckForm() {
       <button
         type="submit"
         disabled={pending}
-        className="bg-carrot text-cream shadow-soft ease-out-quart hover:bg-carrot-dark hover:shadow-lift active:bg-carrot-deep flex w-full items-center justify-center rounded-2xl px-5 py-3.5 text-lg font-semibold transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-60"
+        className="bg-carrot text-cream shadow-soft ease-out-quart hover:bg-carrot-dark hover:shadow-lift active:bg-carrot-deep flex w-full items-center justify-center rounded-2xl px-5 py-3.5 text-lg font-semibold transition duration-200 hover:-translate-y-0.5 active:translate-y-0 disabled:translate-y-0 disabled:cursor-not-allowed disabled:opacity-60"
       >
         {pending ? "Setting the table…" : "Create potluck page"}
       </button>

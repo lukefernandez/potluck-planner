@@ -24,7 +24,7 @@ export function CopyUrlButton() {
 
   return (
     <button
-      className="inline-flex items-center rounded-full bg-zinc-800 px-5 py-2.5 text-sm font-semibold text-cream shadow-soft transition-all duration-200 ease-out-quart hover:-translate-y-0.5 hover:bg-carrot hover:shadow-lift active:translate-y-0"
+      className="inline-flex items-center rounded-full bg-zinc-800 px-5 py-2.5 text-sm font-semibold text-cream shadow-soft transition duration-200 ease-out-quart hover:-translate-y-0.5 hover:bg-carrot hover:shadow-lift active:translate-y-0"
       onClick={copyUrl}
       type="button"
     >

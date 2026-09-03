@@ -14,7 +14,7 @@ export default function PotluckError({ reset }: { error: Error; reset: () => voi
       <button
         type="button"
         onClick={reset}
-        className="bg-carrot text-cream shadow-soft ease-out-quart hover:bg-carrot-dark hover:shadow-lift active:bg-carrot-deep mt-6 inline-flex items-center justify-center rounded-2xl px-6 py-3 font-semibold transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
+        className="bg-carrot text-cream shadow-soft ease-out-quart hover:bg-carrot-dark hover:shadow-lift active:bg-carrot-deep mt-6 inline-flex items-center justify-center rounded-2xl px-6 py-3 font-semibold transition duration-200 hover:-translate-y-0.5 active:translate-y-0"
       >
         Try again
       </button>

@@ -92,7 +92,7 @@ export default async function Potluck({ params }: { params: Promise<{ slug: stri
             <CopyUrlButton />
             <Link
               href="/"
-              className="text-zinc-800 shadow-soft ease-out-quart hover:shadow-lift inline-flex items-center rounded-full border border-zinc-800/20 bg-transparent px-[19px] py-[9px] text-sm font-semibold transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
+              className="text-zinc-800 shadow-soft ease-out-quart hover:shadow-lift inline-flex items-center rounded-full border border-zinc-800/20 bg-transparent px-[19px] py-[9px] text-sm font-semibold transition duration-200 hover:-translate-y-0.5 active:translate-y-0"
             >
               <svg
                 fill="none"
