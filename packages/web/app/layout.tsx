@@ -82,7 +82,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 href="/terms-of-service"
                 className="hover:text-carrot rounded-full px-2 py-1 transition-colors"
               >
-                Terms of Service
+                Terms of service
               </Link>
             </div>
           </footer>

@@ -13,7 +13,7 @@ export default function NotFound() {
         href="/"
         className="bg-carrot text-cream shadow-soft ease-out-quart hover:bg-carrot-dark hover:shadow-lift active:bg-carrot-deep mt-6 inline-flex items-center justify-center rounded-2xl px-6 py-3 font-semibold transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
       >
-        Back Home
+        Back home
       </Link>
     </main>
   );

@@ -13,7 +13,7 @@ const fillAndSubmit = () => {
   fireEvent.change(screen.getByLabelText("What are you bringing?"), {
     target: { value: "Rolls" },
   });
-  fireEvent.submit(screen.getByRole("button", { name: /Add Item/ }).closest("form")!);
+  fireEvent.submit(screen.getByRole("button", { name: /Add item/ }).closest("form")!);
 };
 
 describe("SubmitItemForm", () => {
@@ -69,7 +69,7 @@ describe("SubmitItemForm", () => {
 
     await screen.findByText("Potluck not found");
     expect(routerRefresh).not.toHaveBeenCalled();
-    expect((screen.getByRole("button", { name: /Add Item/ }) as HTMLButtonElement).disabled).toBe(
+    expect((screen.getByRole("button", { name: /Add item/ }) as HTMLButtonElement).disabled).toBe(
       false,
     );
   });
