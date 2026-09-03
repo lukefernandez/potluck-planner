@@ -17,7 +17,7 @@ afterEach(cleanup);
 
 const submit = (name: string) => {
   fireEvent.change(screen.getByLabelText("Potluck name"), { target: { value: name } });
-  fireEvent.submit(screen.getByRole("button", { name: "Submit" }).closest("form")!);
+  fireEvent.submit(screen.getByRole("button", { name: "Create potluck page" }).closest("form")!);
 };
 
 describe("CreatePotluckForm", () => {
@@ -50,7 +50,7 @@ describe("CreatePotluckForm", () => {
 
     await screen.findByText("Validation failed");
     expect(routerPush).not.toHaveBeenCalled();
-    expect((screen.getByRole("button", { name: "Submit" }) as HTMLButtonElement).disabled).toBe(
+    expect((screen.getByRole("button", { name: "Create potluck page" }) as HTMLButtonElement).disabled).toBe(
       false,
     );
   });

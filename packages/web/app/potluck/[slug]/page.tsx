@@ -103,7 +103,7 @@ export default async function Potluck({ params }: { params: Promise<{ slug: stri
               >
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
               </svg>
-              New
+              New potluck
             </Link>
           </div>
         </div>
