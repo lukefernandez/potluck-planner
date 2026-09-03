@@ -168,7 +168,7 @@ export default async function Potluck({ params }: { params: Promise<{ slug: stri
                         </div>
                       )}
                     </div>
-                    <DeleteItemForm id={item.id} />
+                    <DeleteItemForm id={item.id} name={item.name} />
                   </li>
                 ))}
               </ul>

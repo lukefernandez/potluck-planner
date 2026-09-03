@@ -4,7 +4,7 @@ import { api } from "@/shared/api";
 import { useSubmit } from "@/shared/use-submit";
 import { useParams, useRouter } from "next/navigation";
 
-export function DeleteItemForm({ id }: { id: string }) {
+export function DeleteItemForm({ id, name }: { id: string; name: string }) {
   const { slug } = useParams<{ slug: string }>();
   const router = useRouter();
 
@@ -18,7 +18,11 @@ export function DeleteItemForm({ id }: { id: string }) {
       <button
         type="button"
         disabled={pending}
-        onClick={() => submit()}
+        onClick={() => {
+          // Anyone with the link can delete anyone's dish and there is no undo,
+          // so a stray tap needs one chance to back out.
+          if (confirm(`Remove "${name}" from the table?`)) submit();
+        }}
         aria-label="Delete item"
         className="absolute right-3 top-3 rounded-full p-2 text-soft/60 transition-colors hover:bg-blush/20 hover:text-carrot-deep disabled:cursor-not-allowed disabled:opacity-50"
       >
