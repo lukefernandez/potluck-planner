@@ -29,9 +29,9 @@ export function HowItWorks() {
               {i + 1}
             </span>
             <div>
-              <h3 className="font-display text-zinc-800 text-balance text-lg font-semibold sm:text-xl">
+              <h2 className="font-display text-zinc-800 text-balance text-lg font-semibold sm:text-xl">
                 {step.title}
-              </h3>
+              </h2>
               <p className="text-soft mt-1 text-base font-medium">{step.blurb}</p>
             </div>
           </li>
