@@ -92,7 +92,7 @@ export default function Home() {
             If it has helped you, please consider making a donation.
           </p>
           <a
-            className="ease-out-quart mt-6 inline-block rounded-2xl transition-transform duration-200 hover:-translate-y-0.5 hover:scale-[1.03] focus-visible:outline-none"
+            className="ease-out-quart mt-6 inline-block rounded-2xl transition-transform duration-200 hover:-translate-y-0.5 hover:scale-[1.03]"
             href="https://www.buymeacoffee.com/lukefernandez"
             target="_blank"
             rel="noreferrer"
